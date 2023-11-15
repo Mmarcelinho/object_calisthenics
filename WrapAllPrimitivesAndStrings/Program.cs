@@ -1,5 +1,10 @@
 ﻿namespace WrapAllPrimitivesAndStrings;
 
+/*
+Refatorando o código onde os tipos primitivos são encapsulados como objeto
+Se um tipo primitivo tem um comportamento por exemplo CPF então esta variável deveria estar encapsulada em um Objeto CPF.
+*/
+
 public class Pessoa
 {
     public string CPF { get; set; }
@@ -26,7 +31,3 @@ public class CPF
     }
 }
 
-/*
-Refatorando o código onde os tipos primitivos são encapsulados como objeto
-Se um tipo primitivo tem um comportamento por exemplo CPF então esta variável deveria estar encapsulada em um Objeto CPF.
-*/

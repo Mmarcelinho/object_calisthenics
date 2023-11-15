@@ -1,5 +1,9 @@
 ﻿namespace NoGetterOrSetters;
 
+/*
+Adotando a prática de encapsulamento ao restringir o acesso aos métodos acessores e incorporar comportamentos específicos a propriedades.
+Agora, métodos personalizados são utilizados para manipular propriedades com lógica associada, promovendo uma maior coesão e facilitando a manutenção do código.
+*/
 
 public class program
 {

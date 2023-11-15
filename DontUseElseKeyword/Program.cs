@@ -1,5 +1,10 @@
 ﻿namespace DontUseElseKeyword;
 
+/*
+Refatorando o método para eliminar o uso desnecessário de palavras-chave condicionais.
+Ao simplificar a estrutura, tornamos o código mais conciso e fácil de entender.
+*/
+
 public class program
 {
     public bool HorarioEntrada(int horario)
@@ -32,6 +37,3 @@ public class program
    
 }
 
-/*
-Refatorando método onde não é necéssario o uso das keywords das condicionais
-*/

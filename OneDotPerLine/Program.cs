@@ -1,5 +1,9 @@
 ﻿namespace OneDotPerLine;
 
+/*
+Reestruturando o código para encapsular a lógica e promover uma chamada mais concisa de métodos.
+Isolamos a implementação em métodos específicos, proporcionando uma organização mais clara e reduzindo chamadas de métodos em cada linha.
+*/
 public class Program
 {
     static void Main(string[] args)
@@ -7,7 +11,7 @@ public class Program
         var _listaItems = new ListaItem();
 
         _listaItems.AdicionarListaItemComCategoria(new ListaItem());
-        var _listaComCategoria = _listaItems.ListaIemComCategoria();
+        var _listaComCategoria = _listaItems.ListaItemComCategoria();
         _listaComCategoria.AdicionarItemALista(new Item());
 
         /*
@@ -28,7 +32,7 @@ public class ListaItem
     public void AdicionarListaItemComCategoria(ListaItem listaItem) => _items.Add(listaItem);
 
 
-    public ListaItem ListaIemComCategoria(int id) => _items.Where(x => Categoria.Id == id).FirstOrDefault();
+    public ListaItem ListaItemComCategoria(int id) => _items.Where(x => Categoria.Id == id).FirstOrDefault();
 
     public void AdicionarItemALista (Item item) => _items.Add(item);
     

@@ -1,5 +1,8 @@
 ﻿namespace FirstClassCollections;
 
+/*
+Implementando uma lista personalizada para armazenar instâncias de ListaItemCategoria.
+*/
 public class Program
 {
    public void Main(string[] args)
