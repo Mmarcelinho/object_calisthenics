@@ -38,9 +38,6 @@ Estes projetos de exemplo foram criados para fins educacionais. [Marcelo] é res
 
 Estes projetos não possuem uma licença específica e são fornecidos apenas para fins de aprendizado e demonstração.
 
-## Contato
-
-Para entrar em contato com os mantenedores dos projetos ou obter suporte, [marcelorosario2001@gmail.com].
 
 
 
