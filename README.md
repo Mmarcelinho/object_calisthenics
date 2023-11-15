@@ -14,7 +14,7 @@ Exemplifica a prática de evitar o uso excessivo da palavra-chave `else`. Os mé
 
 Demonstra a criação de uma lista personalizada para armazenar instâncias de `ListaItemCategoria`, promovendo uma organização mais clara e coesa.
 
-## Projeto 3: # NoGetterOrSetters
+## Projeto 3: # `NoGetterOrSetters`
 
 Adotando a prática de encapsulamento ao restringir o acesso aos métodos acessores e incorporar comportamentos específicos a propriedades. Agora, métodos personalizados são utilizados para manipular propriedades com lógica associada, promovendo uma maior coesão e facilitando a manutenção do código.
 
