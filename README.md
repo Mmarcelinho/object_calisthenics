@@ -1,3 +1,7 @@
+# Object Calisthenics
+
+Este repositório contém implementações simples que exemplificam princípios do Object Calisthenics em C#.
+
 ##  Referências
 
 - [Live #7 - Object Calisthenics](https://www.youtube.com/live/R2BldcWI5N8?feature=shared)
